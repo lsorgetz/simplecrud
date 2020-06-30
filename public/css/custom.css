@@ -1,0 +1,12 @@
+.bread-actions
+.delete > span,
+.edit > span,
+.view > span,
+.trocarStatus > span,
+.trocarDestaque > span {
+    display: none;
+}
+
+.site-footer-right {
+	display: none !important
+}
