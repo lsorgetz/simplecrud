@@ -146,9 +146,10 @@ return [
         ],
 
         'widgets' => [
-
+            'App\\Widgets\\Usuarios',
+            'App\\Widgets\\Estados',
+            'App\\Widgets\\Cidades',
         ],
-
     ],
 
     /*
