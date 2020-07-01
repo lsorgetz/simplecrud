@@ -20,4 +20,8 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+    Route::get('usuarios/trocarstatus/{id}', [ 'as' => 'usuarios.trocarstatus', 'uses' => 'UsuarioController@trocarStatus' ], function ($id) {});
+    Route::get('exportarusuarios', 'UsuarioController@exportarUsuarios')->name('usuarios.exportarusuarios');
+
+
 });

@@ -1,12 +1,49 @@
 .bread-actions
-.delete > span,
-.edit > span,
-.view > span,
-.trocarStatus > span,
-.trocarDestaque > span {
-    display: none;
-}
+    .delete > span,
+    .edit > span,
+    .view > span,
+    .trocarStatus > span {
+        display: none;
+    }
 
 .site-footer-right {
 	display: none !important
+}
+
+span.label-info  {
+    display: contents;
+}
+
+span.label-primary {
+    display: contents;
+}
+
+span.label-info:before {
+    content: "\e013";
+    color:#5cb85c !important;
+    display: block;
+    font-family: "Glyphicons Halflings";
+    position: relative;
+    font-size: 15px;
+    padding-top: 13px;
+    text-align: left;
+}
+
+span.label-primary:before {
+    content: "\e090";
+    color:#FA2A00 !important;
+    display: block;
+    font-family: "Glyphicons Halflings";
+    position: relative;
+    font-size: 15px;
+    padding-top: 13px;
+    text-align: left;
+}
+
+.oculto {
+    display: none;
+}
+
+.visivel {
+    display: block;
 }
